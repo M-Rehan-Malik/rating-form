@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+    background-color: black;
+}   
+p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.container{
+    width: 402px;
+    height: 352px;
+    padding: 30px 25px 20px 30px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 1rem;
+    color: white;
+}
+.star-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(149, 158, 172, 0.1);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-bottom:18px;
+}
+.title {
+    margin-bottom: 12px;
+}
+.para{
+    color: hsl(217, 12%, 63%);
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+.rate {
+    background-color: rgba(149, 158, 172, 0.12);
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    margin-right: 20px;
+    cursor: pointer;
+}
+.submit{
+    margin-right: 30px;
+    margin-left: 10px;
+    width: 90%;
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 25px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+.submit:hover {
+    transform: scale(1.03);
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+.rate:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.active {
+    color:#fff !important ;
+    background-color: hsl(217, 12%, 63%);
+}
+.after {
+    height: 380px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.thankyou{
+    margin-bottom: 22px;
+}
+.select-div{
+    margin-bottom: 25px;
+    background-color: rgba(149, 158, 172, 0.1);
+    width: 210px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    color: hsl(25, 97%, 53%);
+    font-weight: 700;    
+}
+.thank-head{
+    margin-bottom: 15px;
+}
+.none{
+    display: none;
+}
+
+
+@media (max-width:500px) {
+    body {
+        width: 90%;
+    }
+}
